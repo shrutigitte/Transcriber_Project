@@ -10,7 +10,7 @@ const Main = () => {
 
         <form>
         
-        <input type="text" placeholder='Enter YouTube link'/>
+        <input type="text" placeholder='      Enter YouTube link'/> <br/>
         <button type="button">Get transcript!</button>
 
         </form>

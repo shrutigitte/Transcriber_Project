@@ -1,0 +1,42 @@
+.main_component{
+    align-items: center;
+    margin:100px ;
+    margin-left: 28%;
+
+}
+.main_component h1{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 50px;
+    padding:45px 50px;
+    color: hotpink;
+}
+.main_component h3{
+    padding-left: 60px;
+    font-size: 20px;
+    padding-left: 270px;
+    color: white;
+    margin-top: -30px;
+}
+.main_component form{
+    display: flex;
+    margin: 50px -70px;
+    padding-left: 150px;
+    font-family: "Poetsen One",serif;
+
+}
+.main_component form input{
+    width: 500px;
+    height: 70px;
+    border-radius: 25px 0 0 25px;
+}
+.main_component form input::placeholder{
+    color: rgb(249.235.234);
+}
+.main_component form button{
+    background: darkmagenta;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 0 25px 25px 0;
+
+
+}

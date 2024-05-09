@@ -1,34 +1,36 @@
 body{
-    background:rgb(24, 5, 131)
+    background:rgb(4, 5, 61);
+    /*color:white;*/
+
 }
 .navbar{
     display: flex;
-    gap:60%
-}
-.left_navbar{
-    display:flex;
+    gap:50%;
     color: white;
     font-family: 'Roboto SLab',serif;
-    font-size: 2.5rem;
-    border:2px solid red;
-    width:20%
+    margin-top: 20px;
+    color: white;
 }
+
 .title{
     display: flex;
+    margin: 10px 40px;
 }
-.title_logo{
-    
+.title:hover{
+    translateX:-15px;
+    color:rgb(255, 255, 143);
+    transform: translateY(-10px);
 }
-.title_name{
+.title svg{
+    height: 50px;
+    width: 50px;
+}
+.title p{
+    font-size: 50px;
+    margin-top: -6px;
 
 }
-.right_navbar{
-    
-    
-}
-.right_navbar  {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    margin: 1rem 2rem;
+.navbar h5 {
+    font-size: 20px;
+    margin-top: 30px;
 }
